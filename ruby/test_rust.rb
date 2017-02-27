@@ -1,5 +1,5 @@
 require 'fiddle'
-library = Fiddle::dlopen('../target/debug/libpair.dylib')
+library = Fiddle::dlopen('../target/release/libpair.dylib')
 Fiddle::Function.new(library['initialize'], [], Fiddle::TYPE_VOIDP).call
 
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
