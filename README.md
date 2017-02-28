@@ -6,7 +6,9 @@ you need to install `CONFIGURE_OPTS=--enable-shared rbenv install 2.3.0`
 ## Build
 - `cargo build --release`
 - `./move.sh`
-- `ruby ruby/test_rust.rb`
+- `cd ruby`
+- `time ruby test_rust.rb`
+- `time ruby test_ruby.rb`
 
 ## Build Gem
 - `cargo build --release`
